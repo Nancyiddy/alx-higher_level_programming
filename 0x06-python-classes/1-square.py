@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """Class Square that defines a square object
-    """
+    """ Square class defines a square by size (private) """
     def __init__(self, size):
-        """Initialize method that stores the size of the square
-
-        Args:
-            param1 (int): size of the square
-        """
+        """ initializes the object """
         self.__size = size
